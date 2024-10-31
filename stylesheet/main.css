@@ -1,0 +1,133 @@
+.clearfix::after {clear: both; content: ""; display: table;}
+.loading {display: none;}
+.hidethis {display: none !important;}
+.clickable {cursor: pointer;}
+.bordered {border: 1px solid #c0c0c0;}
+.spacer {margin: 15px 0;}
+
+#wpbody-content p a {color: #E01383;}
+
+.wrap_left, .wrap_right {position: relative; z-index: 1;}
+.wrap_left {width: 56%; float: left;}
+.wrap_right {width: 42%; float: right; position: relative;}
+
+#up_plugin_wrapper {font-size: 1.1em; position: relative;}
+#up_plugin_wrapper a {color: #203540; font-weight: bold;}
+#up_plugin_wrapper table {border-collapse: collapse; table-layout: fixed; min-width: 100%; display: table;}
+#up_plugin_wrapper table tr {min-width: 100%; position: relative; z-index: 8000}
+#up_plugin_wrapper table {overflow-x: auto !important;}
+#up_plugin_wrapper table tr {background: #fff;}
+#up_plugin_wrapper table tr:not(:first-child) {border-top: 3px solid transparent;}
+#up_plugin_wrapper table tr.active-row {background: #f0f0f0!important; box-shadow: 0 0 2px 1px #c0c0c0; color: #23282D; z-index: 4; position: relative;}
+#up_plugin_wrapper table tr.active-row a {color: #23282D;}
+#up_plugin_wrapper table th {background: #bbb; color: #333;}
+.post-status-info td {background: #ddd; color: #666}
+.post-status-info td {font-size: 12px;}
+.post-status-info strong {color: #000;}
+
+#up_plugin_wrapper table th,
+#up_plugin_wrapper table td {text-align: left; padding: 2px 7px;}
+
+#up_plugin_wrapper table tr:nth-child(even) {background: #f9f9f9;}
+
+.tabs .ui-tabs-nav .ui-state-active a.ui-tabs-anchor { color: #fff!Important; }
+
+.tabs {background: transparent;  border: none; outline: 0};
+.tabs .ui-tabs-nav li:active, .tabs .ui-tabs-nav li a:active  {border: none; outline: none; background: #fff; border: 1px solid #000};
+.tabs .ui-widget-header {background: transparent; border-bottom: 0px solid #c0c0c0; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;} 
+.tabs .ui-tabs-nav .ui-state-default {background: #ccc; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;} 
+.tabs .ui-tabs-nav .ui-state-active {background: #23282D;}
+.tabs .ui-tabs-nav .ui-state-default a {color: #c0c0c0;} 
+.tabs .ui-tabs-nav .ui-state-active a {color: #fff;}
+.tabs .ui-tabs-nav:after{clear: both; content:""; display: table;}
+.tabs .ui-tabs-nav li {float: left; margin: 0; border: 0px solid #c0c0c0; border-bottom: none;}
+.tabs .ui-tabs-nav li a {text-decoration: none; display: block; padding: 7px 15px;}
+.tabs .secondaryContent a {text-decoration: none;}
+
+#up_plugin_wrapper .mce-container, #up_plugin_wrapper .mce-widget {z-index: 9999999 !important;}
+
+.up-widget-menu {height: 40px; background: transparent !important}
+.up-widget-menu.fixed, .secondaryContent.fixed {position: fixed; top: 45px; z-index: 91;}
+.secondaryContent.fixed {padding-right: 20px;}
+.up-widget-menu ul {background: transparent; display: block; margin: 0; padding: 0; display: table-cell; vertical-align: middle;}
+.up-widget-menu ul li {float: left; margin-bottom: 0;}
+.up-widget-menu a {text-decoration: none; padding: 5px 12px; color: #fff;}
+.up-widget-menu a:hover {color: #00b9eb;}
+#postElementDataForm input, #postElementDataForm textarea {min-width: 100%;}
+#postElementDataForm textarea {min-height: 200px;}
+
+#up_plugin_wrapper table th, #up_plugin_wrapper table td {
+	line-height: 1.5em;
+	vertical-align: middle;
+}
+
+#dwLighbox-inner-wrapper {
+    position: relative;
+}
+
+.disabled {pointer-events: none; color: #c0c0c0;}
+.disabled a {color: #c0c0c0;}
+
+[class^="maxchars-bar"] {position: relative; width: 100%;}
+[class^="maxchars-bar-progress"] {position: absolute; height: 100%; width: 0; background: #90EE90; z-index: 1;}
+.progress-low {background: #ECEE90;}
+.maxchars-bar-text {position: relative; z-index: 2;}
+
+.alert {color: #000;}
+.alert-bg {background: #F77F86;}
+
+#up-logo {max-width: 295; width: 200px; margin-top: 20px; display: block;/*filter: grayscale(100%);*/
+}
+
+.meta-textarea {width: 100%; height: 200px;}
+
+#categorychecklist {text-align: left;}
+#categorychecklist .children {margin-left: 40px;}
+.dwlightbox-content textarea {min-width: 100%; min-height: 400px;}
+
+.btn-search, .btn-reset {background: #333; border: 0; padding: 7px 10px; margin: 0; cursor: pointer; font-weight: bold; color: #fff;}
+.btn-search:hover, .btn-reset:hover {background: ##23282D;}
+
+.fa {
+	font: normal normal normal 16px/1 FontAwesome!Important;
+}
+
+[class^="setfav_"] {position: relative; z-index: 99999;}
+/*.fa-star, .fa-star-o {font-size: 25px !important;}*/
+i.favorites_0 {color: #FFA500;}
+i.favorites_1 {color: #800080;}
+i.favorites_2 {color: #1E90FF;}
+i.favorites_3 {color: #008000;}
+i.favorites_4 {color: #f0f0f0;}
+i.favorites_5 {color: #000000;}
+
+.fa-edit::before, .fa-pencil-square-o::before {
+	font-size: 16px;
+	line-height: 1.2em;
+	vertical-align: middle;
+}
+
+.fa-external-link::before {
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+input[type="text"], input[type="search"], input[type="radio"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"], input[type="password"], input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], select, textarea, .wp-core-ui button::-moz-focus-inner, .wp-core-ui input[type="reset"]::-moz-focus-inner, .wp-core-ui input[type="button"]::-moz-focus-inner, .wp-core-ui input[type="submit"]::-moz-focus-inner {
+	height: 2.32em;
+	margin: 0;
+}
+
+.favorites-selection {width: 40px;}
+
+#burgerMenuButton {position: absolute; z-index: 99999999; background: #fff; padding: 0 5px; left: -44px; display: none; border-left: 1px solid #111; border-top: 1px solid #111; border-bottom: 1px solid #111;}
+#burgerMenuButton i {font-size: 40px !important; color: #111;}
+
+.secondaryContent {overflow: auto; overflow-x: hidden;}
+
+@media screen and (max-width: 1660px) {
+    .wrap_left, .wrap_right, .up-widget-menu.fixed {float: none !important; width: 100%;}
+    .wrap_right {width: 60%; right: calc(-62% + -2px); position: fixed; top: 50px; background: #fff; padding-left: 2%; padding-top: 2%; border: 1px solid #111;}
+    .secondaryContent.fixed {position: relative;}
+    .secondaryContent {overflow: auto; overflow-x: hidden;}
+    #burgerMenuButton {display: block;}
+}
